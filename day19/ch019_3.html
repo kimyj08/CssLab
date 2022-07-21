@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ch019_3.html</title>
+    <style>
+        .sample {
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            -webkit-transition: width 4s;
+            transition: width 4s;
+            -webkit-transition-timing-function: ease-in;
+            transition-timing-function: ease-in;
+            -webkit-transition-delay: 2s;
+            transition-delay: 2s;
+        }
+        .sample:hover {
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <p>박스에 마우스를 올리세요.</p>
+    <div class="sample">2초 지연</div>
+</body>
+</html>
